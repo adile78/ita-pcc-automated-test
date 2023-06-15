@@ -1,0 +1,337 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 46,
+        "name": "User opens a kasco claim",
+        "description": "",
+        "id": "kasko-claim-opening;user-opens-a-kasco-claim;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 81393458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "KascoOpeningScenario.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11181595066,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged in \"claims.kasco.username\" and \"claims.pswd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"claims.kasco.username\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"claims.pswd\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginScenario.java:79"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54103773449,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user wants to open a \"kasco\" claim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kasco\"",
+                  "offset": 21
+                }
+              ],
+              "location": "KascoOpeningScenario.java:31"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51002471820,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user inserts all \"kasco\" claim first step details:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kasco\"",
+                  "offset": 17
+                }
+              ],
+              "location": "KascoOpeningScenario.java:38"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "date",
+                  "claims.kasco.date"
+                ]
+              },
+              {
+                "cells": [
+                  "time",
+                  "claims.kasco.time"
+                ]
+              },
+              {
+                "cells": [
+                  "city",
+                  "claims.kasco.city"
+                ]
+              },
+              {
+                "cells": [
+                  "cityFirstLetters",
+                  "claims.kasco.cityFirstLetters"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "claims.kasco.address"
+                ]
+              },
+              {
+                "cells": [
+                  "cityAv",
+                  "claims.kasco.cityAv"
+                ]
+              },
+              {
+                "cells": [
+                  "cityAvFirstLetters",
+                  "claims.kasco.cityAvFirstLetters"
+                ]
+              },
+              {
+                "cells": [
+                  "addressAv",
+                  "claims.kasco.addressAv"
+                ]
+              },
+              {
+                "cells": [
+                  "policyNumber",
+                  "claims.kasco.policyNumber"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46334234947,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects documents and events details validating them:",
+            "match": {
+              "location": "KascoOpeningScenario.java:51"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "documentCategoryList",
+                  "claims.kasco.documentCategoryList"
+                ]
+              },
+              {
+                "cells": [
+                  "documentPathList",
+                  "claims.kasco.documentPathList"
+                ]
+              },
+              {
+                "cells": [
+                  "eventCategory",
+                  "claims.kasco.eventCategory"
+                ]
+              },
+              {
+                "cells": [
+                  "damageGood",
+                  "claims.kasco.damageGood"
+                ]
+              },
+              {
+                "cells": [
+                  "isOwner",
+                  "claims.kasco.isOwner"
+                ]
+              },
+              {
+                "cells": [
+                  "isDriver",
+                  "claims.kasco.isDriver"
+                ]
+              },
+              {
+                "cells": [
+                  "driverGender",
+                  "claims.kasco.driverGender"
+                ]
+              },
+              {
+                "cells": [
+                  "driverName",
+                  "claims.kasco.driverName"
+                ]
+              },
+              {
+                "cells": [
+                  "driverSurname",
+                  "claims.kasco.driverSurname"
+                ]
+              },
+              {
+                "cells": [
+                  "driverBirthday",
+                  "claims.kasco.driverBirthday"
+                ]
+              },
+              {
+                "cells": [
+                  "driverBirthdayCityFirstLetters",
+                  "claims.kasco.driverBirthdayCityFirstLetters"
+                ]
+              },
+              {
+                "cells": [
+                  "driverBirthdayCity",
+                  "claims.kasco.driverBirthdayCity"
+                ]
+              },
+              {
+                "cells": [
+                  "driverAddress",
+                  "claims.kasco.driverAddress"
+                ]
+              },
+              {
+                "cells": [
+                  "driverCityFirstLetters",
+                  "claims.kasco.driverCityFirstLetters"
+                ]
+              },
+              {
+                "cells": [
+                  "driverCity",
+                  "claims.kasco.driverCity"
+                ]
+              },
+              {
+                "cells": [
+                  "driverCap",
+                  "claims.kasco.driverCap"
+                ]
+              },
+              {
+                "cells": [
+                  "driverPhone",
+                  "claims.kasco.driverPhone"
+                ]
+              },
+              {
+                "cells": [
+                  "isInjury",
+                  "claims.kasco.isInjury"
+                ]
+              },
+              {
+                "cells": [
+                  "injuryDescription",
+                  "claims.kasco.injuryDescription"
+                ]
+              },
+              {
+                "cells": [
+                  "eventDescription",
+                  "claims.kasco.eventDescription"
+                ]
+              },
+              {
+                "cells": [
+                  "iban",
+                  "claims.kasco.iban"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176605770,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user inserts claim last details:",
+            "match": {
+              "location": "KascoOpeningScenario.java:57"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "phoneNumber",
+                  "claims.kasco.phoneNumber"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40228599209,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user save his claim",
+            "match": {
+              "location": "KascoOpeningScenario.java:63"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@kascoOpening"
+          },
+          {
+            "name": "@kasco"
+          }
+        ]
+      }
+    ],
+    "name": "Kasko claim opening",
+    "description": "",
+    "id": "kasko-claim-opening",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/kasco_claim_opening.feature",
+    "tags": [
+      {
+        "name": "@kascoOpening",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

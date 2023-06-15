@@ -1,0 +1,258 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 112,
+        "name": "Verify Request Daily Allowance Functionality.",
+        "description": "",
+        "id": "verify-tpa-functionality;verify-request-daily-allowance-functionality.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17520809812,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user is logged in \"tpa.username\" and \"tpa.pswd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tpa.username\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"tpa.pswd\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginScenario.java:77"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21833905914,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user wants to require a \"request.type\" for health policy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"request.type\"",
+                  "offset": 24
+                }
+              ],
+              "location": "TpaFunctionalityScenario.java:64"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16800138174,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user fills out daily allowance first tier form:",
+            "match": {
+              "location": "TpaFunctionalityScenario.java:93"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "calendarStartDay",
+                  "daily.calendarStartDay"
+                ]
+              },
+              {
+                "cells": [
+                  "calendarStartMonth",
+                  "daily.calendarStartMonth"
+                ]
+              },
+              {
+                "cells": [
+                  "calendarStartYear",
+                  "daily.calendarStartYear"
+                ]
+              },
+              {
+                "cells": [
+                  "calendarEndDay",
+                  "daily.calendarEndDay"
+                ]
+              },
+              {
+                "cells": [
+                  "calendarEndMonth",
+                  "daily.calendarEndMonth"
+                ]
+              },
+              {
+                "cells": [
+                  "calendarEndYear",
+                  "daily.calendarEndYear"
+                ]
+              },
+              {
+                "cells": [
+                  "policyId",
+                  "daily.policyNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "isAssisted",
+                  "daily.isAssisted"
+                ]
+              },
+              {
+                "cells": [
+                  "service",
+                  "daily.service"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11366132322,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "user fills out daily allowance second tier form:",
+            "match": {
+              "location": "TpaFunctionalityScenario.java:101"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "eventCategories",
+                  "daily.eventCategories"
+                ]
+              },
+              {
+                "cells": [
+                  "assetInput",
+                  "daily.assetInput"
+                ]
+              },
+              {
+                "cells": [
+                  "documentType",
+                  "daily.documentType"
+                ]
+              },
+              {
+                "cells": [
+                  "fileUpload",
+                  "daily.fileUpload"
+                ]
+              },
+              {
+                "cells": [
+                  "iban",
+                  "daily.iban"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "daily.phone"
+                ]
+              },
+              {
+                "cells": [
+                  "description",
+                  "daily.description"
+                ]
+              },
+              {
+                "cells": [
+                  "recontactDay",
+                  "daily.recontactDay"
+                ]
+              },
+              {
+                "cells": [
+                  "recontactMonth",
+                  "daily.recontactMonth"
+                ]
+              },
+              {
+                "cells": [
+                  "recontactYear",
+                  "daily.recontactYear"
+                ]
+              },
+              {
+                "cells": [
+                  "time",
+                  "daily.time"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11811739796,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "user sees summary page",
+            "match": {
+              "location": "TpaFunctionalityScenario.java:108"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14567718453,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "user sees thank you page for \"request.type\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"request.type\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TpaFunctionalityScenario.java:82"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalityTpa"
+          },
+          {
+            "name": "@PCC_TPA.04"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Tpa Functionality",
+    "description": "",
+    "id": "verify-tpa-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/functionality_tpa.feature",
+    "tags": [
+      {
+        "name": "@FunctionalityTpa",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

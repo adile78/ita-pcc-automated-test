@@ -1,0 +1,97 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "User successfully logs into PCC Area Clienti",
+        "description": "",
+        "id": "log-into-axa-private-area;user-successfully-logs-into-pcc-area-clienti;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 119648039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginScenario.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5075986778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on PCC login page",
+            "match": {
+              "location": "LoginScenario.java:33"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4641535910,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters all required login fields \"login.user\" and \"login.pswd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login.user\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"login.pswd\"",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginScenario.java:40"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167883174,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is logged in",
+            "match": {
+              "location": "LoginScenario.java:48"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PCC_01.20"
+          }
+        ]
+      }
+    ],
+    "name": "Log into AXA private area",
+    "description": "",
+    "id": "log-into-axa-private-area",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
